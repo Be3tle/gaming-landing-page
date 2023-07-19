@@ -240,3 +240,50 @@ nav li a {
   line-height: 30px; /* 166.667% */
   margin-top: 20px;
 }
+
+/* genre */
+
+.genre-section {
+  /* width: 120rem;
+  height: 26.6875rem; */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 7.5rem 15rem;
+}
+.genre-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem 15rem;
+}
+
+.genre {
+  display: flex;
+
+  align-items: center;
+  gap: 0.9rem;
+  width: 11rem;
+  height: 3rem;
+  flex-shrink: 0;
+  padding: 0 35px;
+}
+.genre:hover {
+  width: 11rem;
+  color: #ff42a5;
+  height: 3rem;
+  border: 3px solid #ff42a5;
+  border-radius: 3.125rem;
+}
+
+.genre-description {
+  color: #0b0223;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.genre-description:hover {
+  color: #ff42a5;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
