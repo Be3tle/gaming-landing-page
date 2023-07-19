@@ -29,6 +29,10 @@
   font-weight: 700;
 }
 
+.text-white {
+  color: white;
+}
+
 .section-title {
   text-align: center;
   color: #0b0223;
@@ -57,6 +61,7 @@ nav {
 .logo {
   display: flex;
   padding-top: 5px;
+  justify-content: center;
 }
 
 .logo-img {
@@ -286,4 +291,75 @@ nav li a {
   color: #ff42a5;
   font-size: 0.7rem;
   font-weight: 600;
+}
+
+/* footer */
+
+footer {
+  height: 30rem;
+  background: #0b0223;
+}
+
+.footer-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li {
+  list-style: none;
+  margin-right: 3.75rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-logo {
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+  padding: 3.5rem 0;
+}
+
+.footer-logo-img {
+  width: 85px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 20px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.f-list a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.f-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
