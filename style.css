@@ -142,12 +142,6 @@ nav li a {
   text-transform: lowercase;
 }
 
-.banner-text {
-  text-align: left;
-  background-image: url("./images/group14.png");
-  background-size: cover;
-}
-
 .banner-title1,
 .banner-title2,
 .banner-description,
@@ -180,15 +174,6 @@ nav li a {
   padding: 48px 240px 30px;
 }
 
-.img {
-  border-radius: 16px;
-  background: rgba(5, 151, 160, 0.15);
-  padding: 80px 50px 0px 50px;
-  width: 342px;
-  height: 400px;
-  flex-shrink: 0;
-}
-
 .online-caption {
   text-align: center;
   color: #534c64;
@@ -196,6 +181,68 @@ nav li a {
   font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 150% */
+}
+
+.card {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  border-radius: 1rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.container:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.container:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details p {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.fadeIn-bottom {
+  top: 20%;
 }
 
 /* instant play */
