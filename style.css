@@ -337,6 +337,7 @@ nav li a {
   height: 3rem;
   border: 3px solid #ff42a5;
   border-radius: 3.125rem;
+  transition: 0.2s;
 }
 
 .genre-description {
@@ -475,6 +476,51 @@ footer li a {
   .banner-text button {
     margin: 10px 0 10px 100px;
   }
+
+  /* online games */
+  .online-games {
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .text-secondary {
+    font-size: 2rem;
+  }
+  .online-items {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .container img {
+    width: 400px;
+  }
+
+  /* instant play */
+  .instant-play-container {
+    flex-direction: column;
+  }
+
+  /* footer */
+  footer {
+    text-align: center;
+    height: auto;
+    width: 570px;
+  }
+
+  .footer-logo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 90px 20px 0px;
+  }
 }
 
 /* medium devices */
@@ -536,5 +582,11 @@ footer li a {
 
   .banner-text button {
     margin: 10px 0 10px 100px;
+  }
+
+  /* online items */
+
+  .card {
+    width: 33.33333%;
   }
 }
